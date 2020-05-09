@@ -1,0 +1,21 @@
+.nowrap {
+  white-space: nowrap;
+}
+
+.minTdWidth td {
+  min-width: 40px;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.alignItemsFlexStart {
+  align-items: flex-start !important;
+}
+
+abbr[title] {
+  text-decoration: none !important;
+  border-bottom: 1px dotted !important;
+  padding-bottom: 2px;
+}

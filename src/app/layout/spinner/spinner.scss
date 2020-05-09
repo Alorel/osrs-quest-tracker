@@ -1,0 +1,81 @@
+$spinner-offset: 187 !default;
+$spinner-duration: 1.4s !default;
+
+$default-spinner-size: 1em;
+$large-spinner-size: 4em;
+
+@keyframes spinnerRotator {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
+@keyframes spinnerColours {
+  0% {
+    stroke: #4285F4;
+  }
+  25% {
+    stroke: #DE3E35;
+  }
+  50% {
+    stroke: #F7C223;
+  }
+  75% {
+    stroke: #1B9A59;
+  }
+  100% {
+    stroke: #4285F4;
+  }
+}
+
+@keyframes spinnerDash {
+  0% {
+    stroke-dashoffset: $spinner-offset;
+  }
+  50% {
+    stroke-dashoffset: $spinner-offset/4;
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: $spinner-offset;
+    transform: rotate(450deg);
+  }
+}
+
+
+.host {
+  display: inline-block;
+
+  &.lg {
+    display: block;
+    text-align: center;
+
+    > svg {
+      width: $large-spinner-size;
+      height: $large-spinner-size;
+    }
+  }
+
+  &.sm {
+    height: $default-spinner-size;
+    width: $default-spinner-size;
+  }
+
+  svg {
+    animation: spinnerRotator $spinner-duration linear infinite;
+    width: inherit;
+    height: inherit;
+    display: inline-block;
+  }
+
+  circle {
+    stroke-dasharray: $spinner-offset;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    animation: spinnerDash $spinner-duration ease-in-out infinite,
+    spinnerColours ($spinner-duration*4) ease-in-out infinite;
+  }
+}

@@ -1,0 +1,3190 @@
+[
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "A Soul's Bane",
+    "length": 2,
+    "slug": "A_Soul%27s_Bane",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Icthlarin's Little Helper"
+      ],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "A Tail of Two Cats",
+    "length": 3,
+    "slug": "A_Tail_of_Two_Cats",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Darkness of Hallowvale"
+      ],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 48
+        },
+        {
+          "skill": 0,
+          "level": 45
+        },
+        {
+          "skill": 19,
+          "level": 40
+        },
+        {
+          "skill": 8,
+          "level": 40
+        },
+        {
+          "skill": 16,
+          "level": 38
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "A Taste of Hope",
+    "length": 3,
+    "slug": "A_Taste_of_Hope",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Restless Ghost",
+        "Ernest the Chicken",
+        "Priest in Peril"
+      ],
+      "levels": [
+        {
+          "skill": 16,
+          "level": 18
+        },
+        {
+          "skill": 3,
+          "level": 19
+        },
+        {
+          "skill": 13,
+          "level": 30
+        },
+        {
+          "skill": 18,
+          "level": 35
+        },
+        {
+          "skill": 12,
+          "level": 31
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Animal Magnetism",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Animal_Magnetism",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Death to the Dorgeshuun",
+        "The Giant Dwarf",
+        "The Dig Site",
+        "Druidic Ritual"
+      ],
+      "levels": [
+        {
+          "skill": 19,
+          "level": 15
+        },
+        {
+          "skill": 12,
+          "level": 25
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Another Slice of H.A.M.",
+    "length": 2,
+    "slug": "Another_Slice_of_H.A.M.",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Dwarf Cannon",
+        "Fishing Contest"
+      ],
+      "levels": [
+        {
+          "skill": 20,
+          "level": 30
+        },
+        {
+          "skill": 11,
+          "level": 40,
+          "boostable": true
+        },
+        {
+          "skill": 15,
+          "level": 50,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Between a Rock...",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Between_a_Rock...",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 7,
+          "level": 5
+        },
+        {
+          "skill": 2,
+          "level": 30
+        },
+        {
+          "skill": 13,
+          "level": 30
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Big Chompy Bird Hunting",
+    "length": 1,
+    "slug": "Big_Chompy_Bird_Hunting",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Biohazard",
+    "length": 2,
+    "slug": "Biohazard",
+    "qp": 3
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 12
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Black Knights' Fortress",
+    "length": 1,
+    "slug": "Black_Knights%27_Fortress",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Dig Site"
+      ],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Bone Voyage",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Bone_Voyage",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Pirate's Treasure",
+        "Rum Deal",
+        "Priest in Peril"
+      ],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 42
+        },
+        {
+          "skill": 3,
+          "level": 45
+        },
+        {
+          "skill": 15,
+          "level": 50
+        },
+        {
+          "skill": 13,
+          "level": 40
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Cabin Fever",
+    "length": 2,
+    "slug": "Cabin_Fever",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Client of Kourend",
+    "length": 2,
+    "slug": "Client_of_Kourend",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Clock Tower",
+    "length": 1,
+    "slug": "Clock_Tower",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 9,
+          "level": 10
+        },
+        {
+          "skill": 0,
+          "level": 30
+        },
+        {
+          "skill": 3,
+          "level": 30
+        },
+        {
+          "skill": 1,
+          "level": 34
+        },
+        {
+          "skill": 17,
+          "level": 15
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Cold War",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Cold_War",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Prince Ali Rescue",
+        "Icthlarin's Little Helper"
+      ],
+      "levels": []
+    },
+    "difficulty": 3,
+    "name": "Contact!",
+    "length": 2,
+    "slug": "Contact!",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Cook's Assistant",
+    "length": 1,
+    "slug": "Cook%27s_Assistant",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Priest in Peril",
+        "The Restless Ghost"
+      ],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 20
+        },
+        {
+          "skill": 17,
+          "level": 25
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Creature of Fenkenstrain",
+    "length": 2,
+    "slug": "Creature_of_Fenkenstrain",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "In Aid of the Myreque"
+      ],
+      "levels": [
+        {
+          "skill": 1,
+          "level": 5
+        },
+        {
+          "skill": 11,
+          "level": 20,
+          "boostable": true
+        },
+        {
+          "skill": 17,
+          "level": 22
+        },
+        {
+          "skill": 0,
+          "level": 26
+        },
+        {
+          "skill": 3,
+          "level": 32
+        },
+        {
+          "skill": 10,
+          "level": 33
+        },
+        {
+          "skill": 21,
+          "level": 40
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Darkness of Hallowvale",
+    "length": 4,
+    "slug": "Darkness_of_Hallowvale",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Death Plateau",
+    "length": 2,
+    "slug": "Death_Plateau",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Lost Tribe"
+      ],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 23
+        },
+        {
+          "skill": 17,
+          "level": 23
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Death to the Dorgeshuun",
+    "length": 2,
+    "slug": "Death_to_the_Dorgeshuun",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Demon Slayer",
+    "length": 2,
+    "slug": "Demon_Slayer",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Dig Site",
+        "Temple of Ikov",
+        "The Tourist Trap",
+        "Troll Stronghold",
+        "Priest in Peril",
+        "Waterfall Quest"
+      ],
+      "levels": [
+        {
+          "skill": 17,
+          "level": 53,
+          "boostable": true
+        },
+        {
+          "skill": 5,
+          "level": 50
+        },
+        {
+          "skill": 16,
+          "level": 10
+        },
+        {
+          "skill": 10,
+          "level": 50,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Desert Treasure",
+    "length": 4,
+    "slug": "Desert_Treasure",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Wanted!",
+        "Troll Stronghold",
+        "Doric's Quest",
+        "Enter the Abyss"
+      ],
+      "levels": [
+        {
+          "skill": 15,
+          "level": 65,
+          "boostable": true
+        },
+        {
+          "skill": 14,
+          "level": 50
+        },
+        {
+          "skill": 7,
+          "level": 50
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Devious Minds",
+    "length": 1,
+    "slug": "Devious_Minds",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 11,
+          "level": 15
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Doric's Quest",
+    "length": 1,
+    "slug": "Doric%27s_Quest",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 32
+        },
+        {
+          "skill": 3,
+          "level": 8
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Dragon Slayer",
+    "length": 3,
+    "slug": "Dragon_Slayer",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Legends' Quest",
+        "Dream Mentor",
+        "A Tail of Two Cats",
+        "Animal Magnetism",
+        "Ghosts Ahoy",
+        "Bone Voyage",
+        "Client of Kourend"
+      ],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 200
+        }
+      ]
+    },
+    "difficulty": 4,
+    "name": "Dragon Slayer II",
+    "length": 4,
+    "slug": "Dragon_Slayer_II",
+    "qp": 5
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Lunar Diplomacy",
+        "Eadgar's Ruse"
+      ],
+      "levels": [
+        {
+          "skill": -2,
+          "level": 85
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Dream Mentor",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Dream_Mentor",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Druidic Ritual",
+    "length": 1,
+    "slug": "Druidic_Ritual",
+    "qp": 4
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Dwarf Cannon",
+    "length": 1,
+    "slug": "Dwarf_Cannon",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Druidic Ritual",
+        "Troll Stronghold"
+      ],
+      "levels": [
+        {
+          "skill": 8,
+          "level": 31,
+          "boostable": true
+        },
+        {
+          "skill": 0,
+          "level": 44
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Eadgar's Ruse",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Eadgar%27s_Ruse",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 9,
+          "level": 27,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Eagles' Peak",
+    "length": 2,
+    "slug": "Eagles%27_Peak",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 11,
+          "level": 20
+        },
+        {
+          "skill": 15,
+          "level": 20
+        },
+        {
+          "skill": 3,
+          "level": 20
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Elemental Workshop I",
+    "length": 1,
+    "slug": "Elemental_Workshop_I",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 10,
+          "level": 20
+        },
+        {
+          "skill": 15,
+          "level": 30
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Elemental Workshop II",
+    "length": 2,
+    "slug": "Elemental_Workshop_II",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 50
+        },
+        {
+          "skill": 5,
+          "level": 45
+        },
+        {
+          "skill": 12,
+          "level": 43
+        },
+        {
+          "skill": 10,
+          "level": 39
+        },
+        {
+          "skill": 11,
+          "level": 45
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Enakhra's Lament",
+    "length": 2,
+    "slug": "Enakhra%27s_Lament",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 20
+        },
+        {
+          "skill": 5,
+          "level": 20
+        },
+        {
+          "skill": 4,
+          "level": 30,
+          "boostable": true
+        },
+        {
+          "skill": 3,
+          "level": 36
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Enlightened Journey",
+    "length": [
+      1,
+      3
+    ],
+    "slug": "Enlightened_Journey",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Rune Mysteries"
+      ],
+      "levels": []
+    },
+    "mini": true,
+    "difficulty": 0,
+    "name": "Enter the Abyss",
+    "length": [
+      1,
+      3
+    ],
+    "slug": "Enter_the_Abyss",
+    "qp": 0
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Ernest the Chicken",
+    "length": 1,
+    "slug": "Ernest_the_Chicken",
+    "qp": 4
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Lost City",
+        "Nature Spirit"
+      ],
+      "levels": []
+    },
+    "difficulty": 2,
+    "name": "Fairytale I - Growing Pains",
+    "length": 3,
+    "slug": "Fairytale_I_-_Growing_Pains",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Fairytale I - Growing Pains"
+      ],
+      "levels": [
+        {
+          "skill": 17,
+          "level": 40,
+          "boostable": true
+        },
+        {
+          "skill": 4,
+          "level": 49,
+          "boostable": true
+        },
+        {
+          "skill": 8,
+          "level": 57,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Fairytale II - Cure a Queen",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Fairytale_II_-_Cure_a_Queen",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 11,
+          "level": 40,
+          "boostable": true
+        },
+        {
+          "skill": 15,
+          "level": 40,
+          "boostable": true
+        },
+        {
+          "skill": 10,
+          "level": 59,
+          "boostable": true
+        },
+        {
+          "skill": 3,
+          "level": 40
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Family Crest",
+    "length": 2,
+    "slug": "Family_Crest",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 2,
+    "name": "Fight Arena",
+    "length": 1,
+    "slug": "Fight_Arena",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 6,
+          "level": 10
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Fishing Contest",
+    "length": 1,
+    "slug": "Fishing_Contest",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Giant Dwarf",
+        "Fishing Contest"
+      ],
+      "levels": [
+        {
+          "skill": 2,
+          "level": 22
+        },
+        {
+          "skill": 4,
+          "level": 17
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Forgettable Tale...",
+    "length": 3,
+    "slug": "Forgettable_Tale...",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Creature of Fenkenstrain"
+      ],
+      "levels": [
+        {
+          "skill": 4,
+          "level": 25
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Garden of Tranquillity",
+    "length": 4,
+    "slug": "Garden_of_Tranquillity",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Gertrude's Cat",
+    "length": 1,
+    "slug": "Gertrude%27s_Cat",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Ghosts Ahoy",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Ghosts_Ahoy",
+    "qp": 2
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Goblin Diplomacy",
+    "length": 1,
+    "slug": "Goblin_Diplomacy",
+    "qp": 5
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 4,
+          "level": 45,
+          "boostable": true
+        },
+        {
+          "skill": 8,
+          "level": 52,
+          "boostable": true
+        },
+        {
+          "skill": 17,
+          "level": 58,
+          "boostable": true
+        },
+        {
+          "skill": 0,
+          "level": 59,
+          "boostable": true
+        },
+        {
+          "skill": 18,
+          "level": 71,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Grim Tales",
+    "length": 2,
+    "slug": "Grim_Tales",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 15
+        },
+        {
+          "skill": 3,
+          "level": 35
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Haunted Mine",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Haunted_Mine",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Hazeel Cult",
+    "length": 1,
+    "slug": "Hazeel_Cult",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Shield of Arrav",
+        "Lost City",
+        "Merlin's Crystal",
+        "Dragon Slayer",
+        "Druidic Ritual"
+      ],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 55
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Heroes' Quest",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Heroes%27_Quest",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 19,
+          "level": 20
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Holy Grail",
+    "length": 2,
+    "slug": "Holy_Grail",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 35,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Horror from the Deep",
+    "length": 1,
+    "slug": "Horror_from_the_Deep",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Icthlarin's Little Helper",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Icthlarin%27s_Little_Helper",
+    "qp": 2
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Imp Catcher",
+    "length": 1,
+    "slug": "Imp_Catcher",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "In Search of the Myreque"
+      ],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 25
+        },
+        {
+          "skill": 11,
+          "level": 15
+        },
+        {
+          "skill": 10,
+          "level": 7
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "In Aid of the Myreque",
+    "length": 3,
+    "slug": "In_Aid_of_the_Myreque",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Nature Spirit"
+      ],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 25
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "In Search of the Myreque",
+    "length": 1,
+    "slug": "In_Search_of_the_Myreque",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 8,
+          "level": 3
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Jungle Potion",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Jungle_Potion",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Black Knights' Fortress",
+        "Holy Grail",
+        "Murder Mystery",
+        "One Small Favour"
+      ],
+      "levels": [
+        {
+          "skill": 10,
+          "level": 45
+        },
+        {
+          "skill": 20,
+          "level": 65,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "King's Ransom",
+    "length": 2,
+    "slug": "King%27s_Ransom",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Family Crest",
+        "Heroes' Quest",
+        "Shilo Village",
+        "Underground Pass",
+        "Waterfall Quest"
+      ],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 107
+        },
+        {
+          "skill": 0,
+          "level": 50,
+          "boostable": true
+        },
+        {
+          "skill": 3,
+          "level": 50
+        },
+        {
+          "skill": 8,
+          "level": 45,
+          "boostable": true
+        },
+        {
+          "skill": 10,
+          "level": 56
+        },
+        {
+          "skill": 11,
+          "level": 52,
+          "boostable": true
+        },
+        {
+          "skill": 12,
+          "level": 42,
+          "boostable": true
+        },
+        {
+          "skill": 15,
+          "level": 50,
+          "boostable": true
+        },
+        {
+          "skill": 21,
+          "level": 50,
+          "boostable": true
+        },
+        {
+          "skill": 17,
+          "level": 50
+        },
+        {
+          "skill": 18,
+          "level": 50,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Legends' Quest",
+    "length": 4,
+    "slug": "Legends%27_Quest",
+    "qp": 4
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 31
+        },
+        {
+          "skill": 18,
+          "level": 36
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Lost City",
+    "length": 1,
+    "slug": "Lost_City",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Fremennik Trials",
+        "Lost City",
+        "Rune Mysteries",
+        "Shilo Village"
+      ],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 61
+        },
+        {
+          "skill": 20,
+          "level": 40
+        },
+        {
+          "skill": 5,
+          "level": 49
+        },
+        {
+          "skill": 10,
+          "level": 65
+        },
+        {
+          "skill": 11,
+          "level": 60
+        },
+        {
+          "skill": 18,
+          "level": 55
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Lunar Diplomacy",
+    "length": 3,
+    "slug": "Lunar_Diplomacy",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "My Arm's Big Adventure",
+        "Swan Song",
+        "Cold War",
+        "Romeo & Juliet"
+      ],
+      "levels": [
+        {
+          "skill": 5,
+          "level": 66
+        },
+        {
+          "skill": 11,
+          "level": 72
+        },
+        {
+          "skill": 1,
+          "level": 35
+        },
+        {
+          "skill": 0,
+          "level": 68
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Making Friends with My Arm",
+    "length": 2,
+    "slug": "Making_Friends_with_My_Arm",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Priest in Peril",
+        "The Restless Ghost"
+      ],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Making History",
+    "length": [
+      1,
+      3
+    ],
+    "slug": "Making_History",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Merlin's Crystal",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Merlin%27s_Crystal",
+    "qp": 6
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Misthalin Mystery",
+    "length": 1,
+    "slug": "Misthalin_Mystery",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Monk's Friend",
+    "length": 0,
+    "slug": "Monk%27s_Friend",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Grand Tree",
+        "Tree Gnome Village"
+      ],
+      "levels": [
+        {
+          "skill": 12,
+          "level": 43
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Monkey Madness I",
+    "length": 3,
+    "slug": "Monkey_Madness_I",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Enlightened Journey",
+        "The Eyes of Glouphrie",
+        "Recipe for Disaster",
+        "Troll Stronghold",
+        "Watchtower"
+      ],
+      "levels": [
+        {
+          "skill": 16,
+          "level": 69
+        },
+        {
+          "skill": 3,
+          "level": 70
+        },
+        {
+          "skill": 9,
+          "level": 60
+        },
+        {
+          "skill": 0,
+          "level": 55
+        },
+        {
+          "skill": 17,
+          "level": 55
+        },
+        {
+          "skill": 5,
+          "level": 60
+        }
+      ]
+    },
+    "difficulty": 4,
+    "name": "Monkey Madness II",
+    "length": 4,
+    "slug": "Monkey_Madness_II",
+    "qp": 4
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 20
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Mountain Daughter",
+    "length": 2,
+    "slug": "Mountain_Daughter",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Roving Elves",
+        "Big Chompy Bird Hunting",
+        "Sheep Herder"
+      ],
+      "levels": [
+        {
+          "skill": 13,
+          "level": 60,
+          "boostable": true
+        },
+        {
+          "skill": 17,
+          "level": 50,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Mourning's End Part I",
+    "length": 1,
+    "slug": "Mourning%27s_Ends_Part_I",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 12,
+          "level": 43
+        },
+        {
+          "skill": 0,
+          "level": 60
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Mourning's End Part II",
+    "length": 1,
+    "slug": "Mourning%27s_Ends_Part_II",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Murder Mystery",
+    "length": 1,
+    "slug": "Murder_Mystery",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Eadgar's Ruse",
+        "The Feud",
+        "Jungle Potion"
+      ],
+      "levels": [
+        {
+          "skill": 18,
+          "level": 10
+        },
+        {
+          "skill": 4,
+          "level": 29,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "My Arm's Big Adventure",
+    "length": 2,
+    "slug": "My_Arm%27s_Big_Adventure",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Priest in Peril",
+        "The Restless Ghost"
+      ],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 18
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Nature Spirit",
+    "length": 2,
+    "slug": "Nature_Spirit",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 10
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Observatory Quest",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Observatory_Quest",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 5,
+          "level": 40
+        },
+        {
+          "skill": 18,
+          "level": 50,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Olaf's Quest",
+    "length": [
+      1,
+      3
+    ],
+    "slug": "Olaf%27s_Quest",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Rune Mysteries",
+        "Shilo Village"
+      ],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 36,
+          "boostable": true
+        },
+        {
+          "skill": 3,
+          "level": 25
+        },
+        {
+          "skill": 8,
+          "level": 18
+        },
+        {
+          "skill": 15,
+          "level": 30
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "One Small Favour",
+    "length": 4,
+    "slug": "One_Small_Favour",
+    "qp": 2
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Pirate's Treasure",
+    "length": 1,
+    "slug": "Pirate%27s_Treasure",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Plague City",
+    "length": 1,
+    "slug": "Plague_City",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Priest in Peril",
+    "length": 2,
+    "slug": "Priest_in_Peril",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Prince Ali Rescue",
+    "length": 1,
+    "slug": "Prince_Ali_Rescue",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Rag and Bone Man",
+    "length": 2,
+    "slug": "Rag_and_Bone_Man",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 16,
+          "level": 40
+        },
+        {
+          "skill": 20,
+          "level": 20
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Rag and Bone Man II",
+    "length": 3,
+    "slug": "Rag_and_Bone_Man_II",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Icthlarin's Little Helper"
+      ],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Ratcatchers",
+    "length": [
+      3,
+      4
+    ],
+    "slug": "Ratcatchers",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Cook's Assistant",
+        "Fishing Contest",
+        "Goblin Diplomacy",
+        "Big Chompy Bird Hunting",
+        "Murder Mystery",
+        "Nature Spirit",
+        "Witch's House",
+        "Gertrude's Cat",
+        "Shadow of the Storm",
+        "Started Legends' Quest",
+        "Monkey Madness I",
+        "Desert Treasure",
+        "Horror from the Deep"
+      ],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 175
+        },
+        {
+          "skill": 2,
+          "level": 70,
+          "boostable": true
+        },
+        {
+          "skill": 0,
+          "level": 48
+        },
+        {
+          "skill": 11,
+          "level": 50,
+          "boostable": true
+        },
+        {
+          "skill": 6,
+          "level": 53,
+          "boostable": true
+        },
+        {
+          "skill": 17,
+          "level": 53
+        },
+        {
+          "skill": 8,
+          "level": 25,
+          "boostable": true
+        },
+        {
+          "skill": 10,
+          "level": 59,
+          "boostable": true
+        },
+        {
+          "skill": 15,
+          "level": 40
+        },
+        {
+          "skill": 5,
+          "level": 50
+        },
+        {
+          "skill": 13,
+          "level": 40
+        },
+        {
+          "skill": 3,
+          "level": 40
+        },
+        {
+          "skill": 7,
+          "level": 10
+        },
+        {
+          "skill": 16,
+          "level": 10
+        },
+        {
+          "skill": 18,
+          "level": 36
+        }
+      ]
+    },
+    "subquests": [],
+    "difficulty": -1,
+    "name": "Recipe for Disaster",
+    "length": 4,
+    "slug": "Recipe_for_Disaster",
+    "qp": 10
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 12
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Recruitment Drive",
+    "length": 1,
+    "slug": "Recruitment_Drive",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Underground Pass"
+      ],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 56,
+          "boostable": true
+        },
+        {
+          "skill": 3,
+          "level": 10
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Regicide",
+    "length": 3,
+    "slug": "Regicide",
+    "qp": 3
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Romeo & Juliet",
+    "length": 1,
+    "slug": "Romeo_%26_Juliet",
+    "qp": 5
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Regicide",
+        "Waterfall Quest"
+      ],
+      "levels": []
+    },
+    "difficulty": 3,
+    "name": "Roving Elves",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Roving_Elves",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 40,
+          "boostable": true
+        },
+        {
+          "skill": 16,
+          "level": 40,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Royal Trouble",
+    "length": 3,
+    "slug": "Royal_Trouble",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Zogre Flesh Eaters",
+        "Priest in Peril"
+      ],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 42
+        },
+        {
+          "skill": 6,
+          "level": 50,
+          "boostable": true
+        },
+        {
+          "skill": 4,
+          "level": 40,
+          "boostable": true
+        },
+        {
+          "skill": 12,
+          "level": 47,
+          "boostable": true
+        },
+        {
+          "skill": 16,
+          "level": 42,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Rum Deal",
+    "length": 2,
+    "slug": "Rum_Deal",
+    "qp": 2
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Rune Mysteries",
+    "length": 1,
+    "slug": "Rune_Mysteries",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 12,
+          "level": 31
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Scorpion Catcher",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Scorpion_Catcher",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Sea Slug",
+    "length": 1,
+    "slug": "Sea_Slug",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 20
+        },
+        {
+          "skill": 8,
+          "level": 15
+        },
+        {
+          "skill": 5,
+          "level": 5
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Shades of Mort'ton",
+    "length": 1,
+    "slug": "Shades_of_Mort%27ton",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Golem",
+        "Demon Slayer"
+      ],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Shadow of the Storm",
+    "length": 2,
+    "slug": "Shadow_of_the_Storm",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Sheep Herder",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Sheep_Herder",
+    "qp": 4
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Sheep Shearer",
+    "length": 1,
+    "slug": "Sheep_Shearer",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Shield of Arrav",
+    "length": 2,
+    "slug": "Shield_of_Arrav",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 20
+        },
+        {
+          "skill": 0,
+          "level": 32,
+          "boostable": true
+        },
+        {
+          "skill": 15,
+          "level": 4
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Shilo Village",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "Shilo_Village",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Mourning's End Part II",
+        "Making History"
+      ],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 70
+        },
+        {
+          "skill": 1,
+          "level": 70
+        },
+        {
+          "skill": 4,
+          "level": 70
+        },
+        {
+          "skill": 8,
+          "level": 70
+        },
+        {
+          "skill": 9,
+          "level": 70
+        },
+        {
+          "skill": 11,
+          "level": 70
+        },
+        {
+          "skill": 15,
+          "level": 70
+        },
+        {
+          "skill": 18,
+          "level": 70
+        }
+      ]
+    },
+    "difficulty": 4,
+    "name": "Song of the Elves",
+    "length": 4,
+    "slug": "Song_of_the_Elves",
+    "qp": 4
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 10,
+          "level": 33,
+          "boostable": true
+        },
+        {
+          "skill": 13,
+          "level": 37,
+          "boostable": true
+        },
+        {
+          "skill": 11,
+          "level": 37
+        },
+        {
+          "skill": 17,
+          "level": 37,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Spirits of the Elid",
+    "length": 2,
+    "slug": "Spirits_of_the_Elid",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "One Small Favour",
+        "Garden of Tranquillity"
+      ],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 100
+        },
+        {
+          "skill": 10,
+          "level": 66,
+          "boostable": true
+        },
+        {
+          "skill": 2,
+          "level": 62,
+          "boostable": true
+        },
+        {
+          "skill": 6,
+          "level": 62,
+          "boostable": true
+        },
+        {
+          "skill": 15,
+          "level": 45,
+          "boostable": true
+        },
+        {
+          "skill": 5,
+          "level": 42
+        },
+        {
+          "skill": 3,
+          "level": 40
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Swan Song",
+    "length": 2,
+    "slug": "Swan_Song",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 15
+        },
+        {
+          "skill": 2,
+          "level": 30
+        },
+        {
+          "skill": 6,
+          "level": 5
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Tai Bwo Wannai Trio",
+    "length": 3,
+    "slug": "Tai_Bwo_Wannai_Trio",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Client of Kourend"
+      ],
+      "levels": [
+        {
+          "skill": 21,
+          "level": 16
+        },
+        {
+          "skill": 11,
+          "level": 10
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Tale of the Righteous",
+    "length": 2,
+    "slug": "Tale_of_the_Righteous",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 43
+        },
+        {
+          "skill": 5,
+          "level": 49
+        },
+        {
+          "skill": 3,
+          "level": 20
+        },
+        {
+          "skill": 11,
+          "level": 20
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "Tears of Guthix",
+    "length": 1,
+    "slug": "Tears_of_Guthix_(quest)",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 17,
+          "level": 42,
+          "boostable": true
+        },
+        {
+          "skill": 13,
+          "level": 40
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Temple of Ikov",
+    "length": 2,
+    "slug": "Temple_of_Ikov",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Client of Kourend"
+      ],
+      "levels": [
+        {
+          "skill": 9,
+          "level": 12
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "The Ascent of Arceuus",
+    "length": 2,
+    "slug": "The_Ascent_of_Arceuus",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "The Corsair Curse",
+    "length": 1,
+    "slug": "The_Corsair_Curse",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Client of Kourend"
+      ],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 18
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "The Depths of Despair",
+    "length": 1,
+    "slug": "The_Depths_of_Despair",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 10
+        },
+        {
+          "skill": 8,
+          "level": 10
+        },
+        {
+          "skill": 17,
+          "level": 25
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Dig Site",
+    "length": 3,
+    "slug": "The_Dig_Site",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 1,
+          "level": 5
+        },
+        {
+          "skill": 10,
+          "level": 46,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Eyes of Glouphrie",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "The_Eyes_of_Glouphrie",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 17,
+          "level": 30,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Feud",
+    "length": 2,
+    "slug": "The_Feud",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "The Forsaken Tower",
+    "length": 2,
+    "slug": "The_Forsaken_Tower",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "The Fremennik Isles",
+        "Lunar Diplomacy",
+        "Mountain Daughter",
+        "Heroes' Quest"
+      ],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 65
+        },
+        {
+          "skill": 16,
+          "level": 60
+        },
+        {
+          "skill": 15,
+          "level": 60
+        },
+        {
+          "skill": 6,
+          "level": 60
+        },
+        {
+          "skill": 14,
+          "level": 55
+        }
+      ]
+    },
+    "difficulty": 3,
+    "name": "The Fremennik Exiles",
+    "length": 2,
+    "slug": "The_Fremennik_Exiles",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 1,
+          "level": 20
+        },
+        {
+          "skill": 0,
+          "level": 40,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "The Fremennik Isles",
+    "length": 3,
+    "slug": "The_Fremennik_Isles",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "The Fremennik Trials",
+    "length": 3,
+    "slug": "The_Fremennik_Trials",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 12
+        },
+        {
+          "skill": 5,
+          "level": 16
+        },
+        {
+          "skill": 10,
+          "level": 33
+        },
+        {
+          "skill": 17,
+          "level": 14
+        },
+        {
+          "skill": 11,
+          "level": 20
+        },
+        {
+          "skill": 15,
+          "level": 20
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Giant Dwarf",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "The_Giant_Dwarf",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 20
+        },
+        {
+          "skill": 17,
+          "level": 25
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Golem",
+    "length": 2,
+    "slug": "The_Golem",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 25
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "The Grand Tree",
+    "length": 2,
+    "slug": "The_Grand_Tree",
+    "qp": 5
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Creature of Fenkenstrain",
+        "Cabin Fever",
+        "Pirate Pete subquest of Recipe for Disaster"
+      ],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 16
+        },
+        {
+          "skill": 1,
+          "level": 30
+        },
+        {
+          "skill": 12,
+          "level": 50,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "The Great Brain Robbery",
+    "length": 2,
+    "slug": "The_Great_Brain_Robbery",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "The Hand in the Sand",
+    "length": 2,
+    "slug": "The_Hand_in_the_Sand",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 11,
+          "level": 10
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Knight's Sword",
+    "length": 2,
+    "slug": "The_Knight%27s_Sword",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 13
+        },
+        {
+          "skill": 17,
+          "level": 13
+        },
+        {
+          "skill": 11,
+          "level": 17
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Lost Tribe",
+    "length": 2,
+    "slug": "The_Lost_Tribe",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Client of Kourend"
+      ],
+      "levels": [
+        {
+          "skill": 17,
+          "level": 20
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "The Queen of Thieves",
+    "length": 1,
+    "slug": "The_Queen_of_Thieves",
+    "qp": 1
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "The Restless Ghost",
+    "length": 1,
+    "slug": "The_Restless_Ghost",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 3,
+          "level": 30
+        },
+        {
+          "skill": 14,
+          "level": 30,
+          "boostable": true
+        },
+        {
+          "skill": 16,
+          "level": 30,
+          "boostable": true
+        },
+        {
+          "skill": 17,
+          "level": 30,
+          "boostable": true
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Slug Menace",
+    "length": [
+      2,
+      3
+    ],
+    "slug": "The_Slug_Menace",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 7,
+          "level": 10
+        },
+        {
+          "skill": 15,
+          "level": 20
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "The Tourist Trap",
+    "length": 2,
+    "slug": "The_Tourist_Trap",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 18,
+          "level": 45
+        },
+        {
+          "skill": 4,
+          "level": 10
+        },
+        {
+          "skill": 11,
+          "level": 30
+        },
+        {
+          "skill": 6,
+          "level": 35
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Throne of Miscellania",
+    "length": 2,
+    "slug": "Throne_of_Miscellania",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 1,
+          "level": 10
+        }
+      ]
+    },
+    "difficulty": 0,
+    "name": "Tower of Life",
+    "length": 2,
+    "slug": "Tower_of_Life",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Tree Gnome Village",
+    "length": 1,
+    "slug": "Tree_Gnome_Village",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 17,
+          "level": 21
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Tribal Totem",
+    "length": 1,
+    "slug": "Tribal_Totem",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Troll Stronghold"
+      ],
+      "levels": []
+    },
+    "difficulty": 2,
+    "name": "Troll Romance",
+    "length": 2,
+    "slug": "Troll_Romance",
+    "qp": 2
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 0,
+          "level": 15
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Troll Stronghold",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "Troll_Stronghold",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Biohazard"
+      ],
+      "levels": [
+        {
+          "skill": 13,
+          "level": 25
+        }
+      ]
+    },
+    "difficulty": 2,
+    "name": "Underground Pass",
+    "length": 3,
+    "slug": "Underground_Pass",
+    "qp": 5
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Vampire Slayer",
+    "length": 1,
+    "slug": "Vampire_Slayer",
+    "qp": 3
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Recruitment Drive",
+        "Rune Mysteries",
+        "The Lost Tribe",
+        "Priest in Peril"
+      ],
+      "levels": [
+        {
+          "skill": -1,
+          "level": 32
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Wanted!",
+    "length": 3,
+    "slug": "Wanted!",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": [
+        {
+          "skill": 10,
+          "level": 15
+        },
+        {
+          "skill": 17,
+          "level": 15
+        },
+        {
+          "skill": 0,
+          "level": 25
+        },
+        {
+          "skill": 8,
+          "level": 14
+        },
+        {
+          "skill": 11,
+          "level": 40
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Watchtower",
+    "length": 3,
+    "slug": "Watchtower",
+    "qp": 4
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Waterfall Quest",
+    "length": 2,
+    "slug": "Waterfall_Quest",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "What Lies Below",
+    "length": [
+      1,
+      2
+    ],
+    "slug": "What_Lies_Below",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 1,
+    "name": "Witch's House",
+    "length": 1,
+    "slug": "Witch%27s_House",
+    "qp": 4
+  },
+  {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "Witch's Potion",
+    "length": 1,
+    "slug": "Witch%27s_Potion",
+    "qp": 1
+  },
+  {
+    "members": true,
+    "requirements": {
+      "quests": [
+        "Big Chompy Bird Hunting",
+        "Jungle Potion"
+      ],
+      "levels": [
+        {
+          "skill": 15,
+          "level": 4
+        },
+        {
+          "skill": 8,
+          "level": 8
+        },
+        {
+          "skill": 13,
+          "level": 30
+        },
+        {
+          "skill": 7,
+          "level": 30
+        },
+        {
+          "skill": 21,
+          "level": 10
+        },
+        {
+          "skill": 12,
+          "level": 43
+        }
+      ]
+    },
+    "difficulty": 1,
+    "name": "Zogre Flesh Eaters",
+    "length": 2,
+    "slug": "Zogre_Flesh_Eaters",
+    "qp": 1
+  }
+]
