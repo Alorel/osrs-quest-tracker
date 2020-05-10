@@ -12,6 +12,17 @@
     "qp": 1
   },
   {
+    "requirements": {
+      "quests": [],
+      "levels": []
+    },
+    "difficulty": 0,
+    "name": "X Marks the Spot",
+    "length": 1,
+    "slug": "X_Marks_the_Spot",
+    "qp": 1
+  },
+  {
     "members": true,
     "requirements": {
       "quests": [
