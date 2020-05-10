@@ -2,7 +2,7 @@ import {ComponentChildren, h, VNode} from 'preact';
 import {useCallback} from 'preact/hooks';
 import {BehaviorSubject} from 'rxjs';
 import {alignItemsFlexStart} from '../app.scss';
-import {formGroup, listUnstyled, mr1} from '../bs-partial.scss';
+import {formGroup, listUnstyled, mr1, mr2} from '../bs-partial.scss';
 import {hideCompletedFilter$, hideIncompleteFilter$, hideMissingReqFilter$} from '../data/filter';
 import {LabeledCheckbox} from '../util/LabeledCheckbox';
 import {useBehaviorSubject} from '../util/useSubject';
@@ -33,7 +33,7 @@ function PropFilter({sbj, children}: PropFilterProps): VNode {
 
 export function HideFilter(): VNode {
   return (
-    <div class={`${formGroup} ${alignItemsFlexStart}`}>
+    <div class={`${formGroup} ${alignItemsFlexStart} ${mr2}`}>
       <strong class={mr1}>Hide:</strong>
       <ul class={`${listUnstyled} ${containerCss}`}>
         <PropFilter sbj={hideIncompleteFilter$}>Incomplete quests</PropFilter>

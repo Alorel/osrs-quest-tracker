@@ -6,20 +6,7 @@ import {QuestLength} from '../../questlist/QuestLength';
 import {difficultyEntries} from '../questlist/QuestDifficultyDisplay';
 import {lengthEntries} from '../questlist/QuestLengthDisplay';
 import {StoreKey} from '../StoreKey';
-
-function getValueFromStorage<T>(key: StoreKey, defaultValue: T): T {
-  const asString = localStorage.getItem(key);
-  if (asString != null) {
-    try {
-      return JSON.parse(asString);
-    } catch (e) {
-      console.error(`Unable to parse ${key} from storage:`, e);
-      localStorage.removeItem(key);
-    }
-  }
-
-  return defaultValue;
-}
+import {getValueFromStorage} from '../util/getValueFromStorage';
 
 export const nameFilter$ = new BehaviorSubject<string | null>(getValueFromStorage(StoreKey.NAME, null));
 export const lengthFilter$ = new BehaviorSubject<QuestLength[] | null>(getValueFromStorage(

@@ -5,6 +5,7 @@ import {HideFilter} from './HideFilter';
 import {DifficultyFilter, LengthFilter} from './LengthDifficultyFilter';
 import {MembersFilter} from './MembersFilter';
 import {NameFilter} from './NameFilter';
+import {SortControl} from './SortControl';
 
 export function QuestFilter(): VNode {
   return (
@@ -16,6 +17,7 @@ export function QuestFilter(): VNode {
         <DifficultyFilter/>
         <NameFilter/>
         <HideFilter/>
+        <SortControl/>
       </div>
     </Fragment>
   );

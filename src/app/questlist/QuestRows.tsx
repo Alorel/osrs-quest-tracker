@@ -1,11 +1,11 @@
 import {Fragment, h, VNode} from 'preact';
 import {IQuest} from '../../questlist/IQuest';
-import {filteredQuests$} from '../data/filteredQuests';
+import {sortedQuests$} from '../data/sortedQuests';
 import {useObservable} from '../util/useObservable';
 import {QuestRow} from './QuestRow';
 
 export function QuestRows(): VNode | null {
-  const quests = useObservable<IQuest[], IQuest[]>(filteredQuests$, []);
+  const quests = useObservable<IQuest[], IQuest[]>(sortedQuests$, []);
 
   if (!quests.length) {
     return null;

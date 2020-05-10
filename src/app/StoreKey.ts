@@ -6,5 +6,6 @@ export const enum StoreKey {
   NAME = 'name-filter',
   HIDE_COMPLETED = 'hide-completed-q',
   HIDE_INCOMPLETE = 'hide-incomplete-q',
-  HIDE_MISSING_REQUIREMENTS = 'hide-missing-req-q'
+  HIDE_MISSING_REQUIREMENTS = 'hide-missing-req-q',
+  SORT = 'sort-q'
 }

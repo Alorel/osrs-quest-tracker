@@ -1,4 +1,4 @@
-import {h, RenderableProps, VNode} from 'preact';
+import {Fragment, h, RenderableProps, VNode} from 'preact';
 import {JSXInternal} from 'preact/src/jsx';
 
 export function LabeledCheckbox(
@@ -7,11 +7,11 @@ export function LabeledCheckbox(
   const labelProps = props.id ? {for: props.id} : {};
 
   return (
-    <div class="checkbox">
+    <Fragment>
       <label {...labelProps}>
         <input type="checkbox" {...props}/>
         <span>{children}</span>
       </label>
-    </div>
+    </Fragment>
   );
 }
