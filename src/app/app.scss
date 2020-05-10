@@ -19,3 +19,21 @@ abbr[title] {
   border-bottom: 1px dotted !important;
   padding-bottom: 2px;
 }
+
+.vanityStamp {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px;
+  background: rgba(0, 0, 0, .8);
+  color: #fff;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, .8);
+
+  span {
+    user-select: none;
+  }
+
+  a {
+    color: #b60505;
+  }
+}
