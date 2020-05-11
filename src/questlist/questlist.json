@@ -198,7 +198,9 @@
   {
     "members": true,
     "requirements": {
-      "quests": [],
+      "quests": [
+        "Plague City"
+      ],
       "levels": []
     },
     "difficulty": 0,
