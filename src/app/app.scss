@@ -37,3 +37,9 @@ abbr[title] {
     color: #b60505;
   }
 }
+
+.qTable {
+  td, th {
+    vertical-align: middle !important;
+  }
+}

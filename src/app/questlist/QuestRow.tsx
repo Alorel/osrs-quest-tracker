@@ -3,6 +3,7 @@ import {memo} from 'preact/compat';
 import {IQuest} from '../../questlist/IQuest';
 import {tableDanger, tableSuccess} from '../bs-partial.scss';
 import {useCompletedQuests, useIsQuestCompleted} from '../data/profile';
+import {useHasMembersFilter} from '../data/useHasMembersFilter';
 import {RsIcon} from '../RsIcon';
 import {QuestDifficultyDisplay} from './QuestDifficultyDisplay';
 import {QuestLengthDisplay} from './QuestLengthDisplay';
@@ -34,6 +35,14 @@ function QuestNameTd({quest}: QuestProp): VNode {
   return <RequirementsQuestTd quest={quest}/>;
 }
 
+const MembIconTd = memo(function MembIconTd({members}: Pick<IQuest, 'members'>): VNode | null {
+  const hasMembFilter = useHasMembersFilter();
+
+  return hasMembFilter ?
+    <td><RsIcon icon={members ? 'members' : 'free'}/></td> :
+    null;
+});
+
 export const QuestRow = memo(function QuestRow({quest}: QuestProp): VNode {
   const questComplete = useIsQuestCompleted(quest);
   const questState = useQuestState(quest, questComplete);
@@ -41,7 +50,7 @@ export const QuestRow = memo(function QuestRow({quest}: QuestProp): VNode {
   return (
     <tr class={questStateToRowClass(questState)}>
       <QuestStateTd complete={questComplete} quest={quest}/>
-      <td><RsIcon icon={quest.members ? 'members' : 'free'}/></td>
+      <MembIconTd members={quest.members}/>
       <QuestNameTd quest={quest}/>
       <td><QuestLengthDisplay length={quest.length}/></td>
       <td><QuestDifficultyDisplay difficulty={quest.difficulty}/></td>
