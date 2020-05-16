@@ -1239,7 +1239,9 @@
   {
     "members": true,
     "requirements": {
-      "quests": [],
+      "quests": [
+        "Druidic Ritual"
+      ],
       "levels": [
         {
           "skill": 8,
