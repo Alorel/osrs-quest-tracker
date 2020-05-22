@@ -1,6 +1,15 @@
 import {round} from 'lodash-es';
 import {combineLatest, Observable, of} from 'rxjs';
-import {distinctUntilChanged, filter, map, pluck, shareReplay, startWith, switchMap} from 'rxjs/operators';
+import {
+  debounceTime,
+  distinctUntilChanged,
+  filter,
+  map,
+  pluck,
+  shareReplay,
+  startWith,
+  switchMap
+} from 'rxjs/operators';
 import {Skill} from '../../questlist/Skill';
 import {actualSkillIds} from '../SkillIcon';
 import {isTruthy} from '../util/isTruthy';
@@ -38,6 +47,7 @@ const playerMode$: Observable<string> = profile$.pipe(
 );
 
 export const playerDetails$: Observable<PlayerDetailsResponse> = combineLatest([playerName$, playerMode$]).pipe(
+  debounceTime(50),
   switchMap(([name, mode]) => fetchPlayer(name, mode)),
   shareReplay(1)
 );

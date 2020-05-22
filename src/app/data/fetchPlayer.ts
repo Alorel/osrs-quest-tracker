@@ -1,10 +1,10 @@
 import {Observable, of} from 'rxjs';
 import {ajax, AjaxError} from 'rxjs/ajax';
-import {catchError, last, map, shareReplay} from 'rxjs/operators';
+import {catchError, distinctUntilChanged, filter, last, map, shareReplay, startWith} from 'rxjs/operators';
 import {Skill} from '../../questlist/Skill';
 import {urlMode} from '../player/urlMode';
 import {actualSkillIds} from '../SkillIcon';
-import {buildCorsUrl} from '../util/buildCorsUrl';
+import {isTruthy} from '../util/isTruthy';
 import {PlayerDetails, PlayerDetailsResponse} from './player';
 
 const cache: { [k: string]: Observable<PlayerDetailsResponse> } = {};
@@ -15,13 +15,25 @@ function getLineLevel(line: string): number {
 
 export function fetchPlayer(name: string, mode: string): Observable<PlayerDetailsResponse> {
   const cacheKey = `${name}|${mode}`;
-  const url = `https://secure.runescape.com/m=hiscore_${urlMode[mode]}/index_lite.ws?player=${name}`;
+  const url = `/.netlify/functions/get-toon?basepath=hiscore_${urlMode[mode]}&toon=${name}`;
 
   if (!cache[cacheKey]) {
-    cache[cacheKey] = ajax({url: buildCorsUrl(url), responseType: 'text'}).pipe(
+    cache[cacheKey] = ajax({url, responseType: 'text'}).pipe(
       last(),
-      map((rsp): PlayerDetails => {
-        const text: string = rsp.response as string;
+      map((rsp): string => {
+        const out = (rsp.response as string).trim();
+        try {
+          localStorage.setItem(cacheKey, out);
+        } catch (e) {
+          console.warn(e);
+        }
+
+        return out;
+      }),
+      startWith(localStorage.getItem(cacheKey) || ''),
+      distinctUntilChanged(),
+      filter(isTruthy),
+      map((text): PlayerDetails => {
         const lines = text.split(/\n/g);
 
         const skills: [Skill, number][] = actualSkillIds
