@@ -36,21 +36,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@alorel/rollup-plugin-iife-wrap@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@alorel/rollup-plugin-iife-wrap@npm:1.1.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40alorel%2Frollup-plugin-iife-wrap%2F1.1.0%2F56eb041b684d6b3dce8bd0df5ce04e04b7ddf762df61901c36e37dd10b1b8e68"
+"@alorel/rollup-plugin-iife-wrap@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@alorel/rollup-plugin-iife-wrap@npm:1.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40alorel%2Frollup-plugin-iife-wrap%2F1.3.0%2Fec2919e9e178f2b213eeebc89e0d1bdc3fcadd4591397be84ec2763fb07dd0cd"
   dependencies:
     estree-walker: ^2.0.1
     magic-string: ^0.25.7
   peerDependencies:
     rollup: ^2.6.0 || ^1.30.0
-  checksum: 2/f3fac26ae712c97ffa82638b69b00641c3237f3f55b54ef8b797744a719522a15a76a0b8d049357b212ec712b544c95edcd6893be38e163f156a9a0a04902157
+  checksum: 2/4dc42634f07047f6fde0484d0d10c02fe66b424e9a6fabf22992a5d3c977d2b644f9238db1137b5610412d7a23752265d03ae8488ede4a722172f4c0c67314e1
   languageName: node
   linkType: hard
 
-"@alorel/rollup-plugin-index-renderer-core@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@alorel/rollup-plugin-index-renderer-core@npm:1.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40alorel%2Frollup-plugin-index-renderer-core%2F1.0.0%2F2198714cb7e4aa4b4d97e9b40959567910c83858614416af091c78f944f20f42"
+"@alorel/rollup-plugin-index-renderer-core@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@alorel/rollup-plugin-index-renderer-core@npm:1.1.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40alorel%2Frollup-plugin-index-renderer-core%2F1.1.0%2F236cb95875b7cbb6f39102a6dd9670bdb2d00ae380037a7a58b22390c5f70ae6"
   dependencies:
     "@types/node": ">=13.13.1"
     "@types/pug": ^2.0.0
@@ -59,20 +59,19 @@ __metadata:
     tslib: ^1.11.1
   peerDependencies:
     rollup: ^2.6.0 || ^1.30.0
-  checksum: 2/47fecea2b06e8e456ecf47bcd626d2e7b24abe34af8b7dc50562fe177690ea7fe7ab1075a041e604ce4457446e96b15a0d13eccdf666c174eb3ffdd7141c6aed
+  checksum: 2/fb5e81f2667e017639f68a559b904aa57b2ba162b92115e09ca9bd3da37e1262f8d6192f7d7a5d05d0be0e4a140fd87f24d283d2cd4bdee39653511a62a34767
   languageName: node
   linkType: hard
 
-"@alorel/rollup-plugin-index-renderer-systemjs@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@alorel/rollup-plugin-index-renderer-systemjs@npm:1.0.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40alorel%2Frollup-plugin-index-renderer-systemjs%2F1.0.0%2Ffd6cc273d0a1e73302decc6345115c65b0c4f376676c0d9aab2063d5266e6066"
+"@alorel/rollup-plugin-index-renderer-iife@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "@alorel/rollup-plugin-index-renderer-iife@npm:1.1.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40alorel%2Frollup-plugin-index-renderer-iife%2F1.1.0%2F038eb59425298946c275371b2f62853c41f336669bb07e3fbd3d113742e226e9"
   dependencies:
-    "@alorel/rollup-plugin-index-renderer-core": 1.0.0
+    "@alorel/rollup-plugin-index-renderer-core": 1.1.0
     "@types/node": ">=13.13.1"
   peerDependencies:
     rollup: ^2.6.0 || ^1.30.0
-    systemjs: ^6.0.0
-  checksum: 2/1d1a81ba6bfd4e1d32889254c9ec3dd9cbca961872139b8d182b21c678d0b028018b0ee0d72462a11a645e94c66c7d4ea581acc33b1f13a7d65d7e160bc854cf
+  checksum: 2/de4c98087b8b0741cd8f2772065740015a89557efacc8f9c62f9f54b8eb2501de341c5460e4f69c17755af0e34052cb3128ee138b490607f50689efe8bdeb6ca
   languageName: node
   linkType: hard
 
@@ -5971,6 +5970,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"json5@npm:^2.1.3":
+  version: 2.1.3
+  resolution: "json5@npm:2.1.3"
+  dependencies:
+    minimist: ^1.2.5
+  bin:
+    json5: lib/cli.js
+  checksum: 2/957e4937106cf59975aa0281e68911534d65c8a25be5b4d3559aa55eba351ccab516a943a60ba33e461e4b8af749939986e311de910cbcfd197410b57d971741
+  languageName: node
+  linkType: hard
+
 "jsonfile@npm:^4.0.0":
   version: 4.0.0
   resolution: "jsonfile@npm:4.0.0"
@@ -7605,8 +7615,8 @@ fsevents@~2.1.2:
     "@alorel/preact-static-component": ^1.0.0
     "@alorel/rollup-plugin-clean": ^1.0.0
     "@alorel/rollup-plugin-copy": ^1.0.1
-    "@alorel/rollup-plugin-iife-wrap": ^1.1.0
-    "@alorel/rollup-plugin-index-renderer-systemjs": ^1.0.0
+    "@alorel/rollup-plugin-iife-wrap": ^1.3.0
+    "@alorel/rollup-plugin-index-renderer-iife": ^1.0.0
     "@alorel/rollup-plugin-modular-css": ^1.1.3
     "@alorel/rollup-plugin-scss": ^1.2.1
     "@alorel/rollup-plugin-threaded-terser": ^1.0.1
@@ -7620,6 +7630,7 @@ fsevents@~2.1.2:
     bootstrap: ^4.5.0
     cross-env: ^7.0.2
     cssnano: ^4.1.10
+    json5: ^2.1.3
     lodash-es: ^4.17.15
     netlify-cli: ^2.51.0
     node-sass: ^4.14.1

@@ -1,16 +1,12 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2018",
     "outDir": "./dist",
-    "module": "esnext",
-    "lib": [
-      "esnext",
-      "dom"
-    ]
+    "module": "esnext"
   },
   "include": [
     "declarations.d.ts",
-    "src"
+    "lambda"
   ]
 }

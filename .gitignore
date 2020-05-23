@@ -1,6 +1,7 @@
 node_modules/
 *.log
 /dist/
+/dist-lambda/
 /.nyc_output
 /coverage
 
