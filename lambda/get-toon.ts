@@ -30,7 +30,8 @@ module compress {
           headers: {
             ...(rspObject.headers || {}),
             'content-encoding': enc
-          }
+          },
+          isBase64Encoded: true
         });
       }
     };
