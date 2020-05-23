@@ -2595,7 +2595,9 @@
   {
     "members": true,
     "requirements": {
-      "quests": [],
+      "quests": [
+        "Client of Kourend"
+      ],
       "levels": []
     },
     "difficulty": 0,
