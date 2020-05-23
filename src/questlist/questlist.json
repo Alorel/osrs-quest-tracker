@@ -1833,7 +1833,9 @@
   {
     "members": true,
     "requirements": {
-      "quests": [],
+      "quests": [
+        "Rag and Bone Man"
+      ],
       "levels": [
         {
           "skill": 16,
