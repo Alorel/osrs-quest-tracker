@@ -1,4 +1,5 @@
 import {h, VNode} from 'preact';
+import 'balloon-css/balloon.min.css';
 import {vanityStamp} from './app/app.scss';
 import {containerFluid, mr1} from './app/bs-partial.scss';
 import {Player} from './app/player/Player';

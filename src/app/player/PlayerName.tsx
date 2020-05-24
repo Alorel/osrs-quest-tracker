@@ -1,8 +1,9 @@
 import {capitalize} from 'lodash-es';
 import {h, VNode} from 'preact';
-import {useCallback, useContext, useState} from 'preact/hooks';
+import {useCallback, useContext, useEffect, useState} from 'preact/hooks';
 import {btn, btnLight, formControl, formGroup, formInline, mr1} from '../bs-partial.scss';
 import {profile$} from '../data/profile';
+import {onPlayerSynced$} from '../data/sync/fetchSyncId';
 import {FetchingNameContext} from './NameFetchContext';
 import {urlMode} from './urlMode';
 
@@ -46,6 +47,17 @@ export function PlayerName(): VNode {
       mode
     });
   }, [name, mode]);
+  useEffect(() => {
+    const sub = onPlayerSynced$
+      .subscribe(v => {
+        setName(v.name);
+        setMode(v.mode);
+      });
+
+    return () => {
+      sub.unsubscribe();
+    };
+  }, [setName, setMode]);
 
   return (
     <form class={formInline} onSubmit={onSubmit}>

@@ -46,7 +46,6 @@ export default [
       entryFileNames: '[name].js',
       sourcemap: false
     },
-    preserveModules: true,
     plugins: [
       nodeResolve({
         extensions: resolveExt,
