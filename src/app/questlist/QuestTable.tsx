@@ -1,7 +1,7 @@
 import {h, VNode} from 'preact';
 import {Skill} from '../../questlist/Skill';
 import {fullwidth, minTdWidth, qTable} from '../app.scss';
-import {table as tableCss, tableBordered, tableHover, tableResponsive, tableSm, textCenter} from '../bs-partial.scss';
+import {table as tableCss, tableBordered, tableStriped, tableHover, tableResponsive, tableSm, textCenter} from '../bs-partial.scss';
 import {useHasMembersFilter} from '../data/useHasMembersFilter';
 import {allSkillIds, SkillIcon} from '../SkillIcon';
 import {QuestRows} from './QuestRows';
@@ -17,7 +17,7 @@ function MembersCol(): VNode | null {
 export function QuestTable(): VNode {
   return (
     <div class={tableResponsive}>
-      <table class={`${tableCss} ${qTable} ${textCenter} ${tableHover} ${tableSm} ${tableBordered}`}>
+      <table class={`${tableCss} ${tableStriped} ${qTable} ${textCenter} ${tableHover} ${tableSm} ${tableBordered}`}>
         <thead>
         <tr>
           <th scope="col"/>

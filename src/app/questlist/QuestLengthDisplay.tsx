@@ -17,7 +17,7 @@ const lengthMap = Object.fromEntries(lengthEntries);
 
 export function stringifyQuestLength(length: QuestLength | QuestLength[]): string {
   if (Array.isArray(length)) {
-    return length.map(stringifyQuestLength).join(' - ');
+    return length.map(stringifyQuestLength).join('\u00A0-\u00A0'); // &nbsp;
   }
 
   if (!lengthMap[length]) {
